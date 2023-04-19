@@ -125,6 +125,7 @@ void pop()
 		return;
 	}
 	else {
+		cout << "O item " << topo->valor << " foi excluido" << endl;
 		topo = topo->prox;
 		free(aux);
 	}
